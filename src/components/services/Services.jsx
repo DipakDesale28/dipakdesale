@@ -2,7 +2,7 @@ import React from 'react';
 import './Services.css';
 import Image1 from '../../assets/service-1.svg'
 import Image2 from '../../assets/service-2.svg'
-import Image3 from '../../assets/service-3.svg'
+//import Image3 from '../../assets/service-3.svg'
 
 const data = [
     {
@@ -10,7 +10,7 @@ const data = [
         image: Image1,
         title: "Responsive design",
         description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+            "Ensuring that the website/app is responsive across all platforms",
     },
     {
         id: 2,
@@ -19,13 +19,13 @@ const data = [
         description:
             "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
     },
-    {
-        id: 3,
-        image: Image3,
-        title: "Mobile Development",
-        description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
-    },
+    // {
+    //     id: 3,
+    //     image: Image3,
+    //     title: "Mobile Development",
+    //     description:
+    //         "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+    // },
 ];
 
 const Services = () => {
